@@ -1,4 +1,5 @@
 import React from 'react';
+import Banner from '../components/Banner';
 import video from '../video/video.mp4'
 
 const VideoPage = () => {
@@ -10,9 +11,7 @@ const VideoPage = () => {
                 <source src={video} type='video/mp4'/>
             </video>
         </div>
-        <div>
-
-        </div>
+       <Banner/>
       </div>
   </div>
   )
